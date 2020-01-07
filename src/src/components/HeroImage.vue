@@ -6,9 +6,7 @@
         <v-row align="center" style="height: 100%;">
           <v-col id="fade-away" class="text-center">
             <h1 class="main-h1 mb-8">Welcome to EZ Expenses</h1>
-            <h2 class="section-heading mb-5">
-              Business miles and expenses made EZ!
-            </h2>
+            <h2 class="section-heading mb-5">Business miles and expenses made EZ!</h2>
             <p class="width-600 mx-auto">
               The perfect companion app for all working professionals who travel
               or make purchases on the job!
@@ -54,9 +52,9 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  transform: translatez(0);
-  -webkit-transform: translatez(0);
+  will-change: transform;
 }
+
 .dark-filter {
   background-color: #434343c2;
   width: 100%;

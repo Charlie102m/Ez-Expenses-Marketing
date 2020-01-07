@@ -29,7 +29,6 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  transform: translatez(0);
-  -webkit-transform: translatez(0);
+  will-change: transform;
 }
 </style>

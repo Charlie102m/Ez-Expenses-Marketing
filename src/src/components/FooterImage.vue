@@ -7,10 +7,7 @@
             <div class="floating-text">
               <p class="ma-5">Save time, money and get back to what matters!</p>
             </div>
-            <a
-              href="https://app.ez-expenses.co.uk/register"
-              class="d-block my-10"
-            >
+            <a href="https://app.ez-expenses.co.uk/register" class="d-block my-10">
               <v-btn large class="dark-button" dark>Sign Up Now!</v-btn>
             </a>
           </v-col>
@@ -33,7 +30,6 @@ export default {
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
-  transform: translatez(0);
-  -webkit-transform: translatez(0);
+  will-change: transform;
 }
 </style>
